@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<div class="container bg-dark text-light">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href='https://fonts.googleapis.com/css?family=Buenard' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		th, td{
+			font-family: Buenard;
+		}
+		h1{
+			font-family: Space Grotesk;
+		}
+		img{
+			height: 90px;
+			width: 90px;
+		}
+	</style>
+	<title>Q3 Exercise 2</title>
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar nav-tabs navbar-expand-lg navbar-dark ">
+			<a class="navbar-brand">Marcus</a>
+			<ul class="nav navbar-tabs">
+				<li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
+			</ul>
+	</nav>
+</div>
+	<div class="container">
+	<h1>OB Montessori</h1>
+	<table class="table table-striped table-hover table-act table-active">
+		<tr>
+			<th>Profile Picture</th>
+			<th>First Name</th>
+			<th>Surname</th>
+			<th>Grade & Section</th>
+		</tr>
+		<tr>
+			<td><img src="axel.jpg" class="img-thumbnail"></td>
+			<td>Axel</td>
+			<td>Borchardt</td>
+			<td>9-Emerald</td>
+		</tr>
+		<tr>
+			<td><img src="robin.jpg" class="img-thumbnail"></td>
+			<td>Robin</td>
+			<td>Pandato</td>
+			<td>9-Emerald</td>
+		</tr>
+		<tr>
+			<td><img src="kian.jpg" class="img-thumbnail"></td>
+			<td>Kian</td>
+			<td>Sta. Maria</td>
+			<td>9-Emerald</td>
+		</tr>
+	</table>
+	</div>
+	<h2>Adding New Students</h2>
+<div class="container bg-dark text-light">
+<form class="form-group">
+	Enter Firstname: <input type="text" name="firstname" class="firstname"><br>
+	Enter Lastname: <input type="text" name="lastname" class="lastname"><br>
+	Choose Section:
+	<select class="form-control">
+		<option>Emerald</option>
+		<option>Ruby</option>
+		<option>Amethyst</option>
+		<option>Garnet</option>
+	</select>
+	<br>
+	Date Enrolled: <input type="date" name="enrolled" class="form-control">
+	<br>
+	<input type="submit" value="ADD STUDENT" class="btn btn-warning">
+	<br>
+	<input type="reset" value="CANCEL" class="btn btn-danger">
+	<br>
+</form>
+</body>
+</html>
